@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Design Foot 13</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(180deg, #0a0a0a, #111);
+      color: white;
+    }
+
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      background: radial-gradient(circle, #1e90ff, #000);
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      font-weight: 800;
+    }
+
+    header p {
+      font-size: 1.2em;
+      opacity: 0.8;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    h2 {
+      font-size: 2.2em;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .affiches {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+    }
+
+    .affiches img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+      transition: transform 0.4s;
+    }
+
+    .affiches img:hover {
+      transform: scale(1.05);
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 35px;
+      background: #1e90ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #63b3ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 50px;
+      background: #000;
+      font-size: 0.9em;
+    }
+
+    .socials a {
+      margin: 0 15px;
+      color: #1e90ff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Design Foot 13</h1>
+  <p>Affiches de football – clubs & joueurs</p>
+</header>
+
+<section>
+  <h2>Mes affiches</h2>
+  <div class="affiches">
+    <img src="om-nantes.jpg">
+    <img src="angers-om.jpg">
+    <img src="manchester-derby.jpg">
+  </div>
+</section>
+
+<section style="text-align:center;">
+  <h2>Demande d’affiche</h2>
+  <p>Contacte-moi directement par mail</p>
+  <a class="btn" href="mailto:ilamathe61@gmail.com?subject=Demande%20d'affiche">
+    Faire une demande
+  </a>
+</section>
+
+<section>
+  <h2>En savoir plus</h2>
+  <p style="max-width:800px;margin:auto;text-align:center;font-size:1.1em;">
+    Bonjour moi c’est design Foot 13. Je fais des affiches de toutes sortes pour les clubs et les joueurs pro ou non pro.
+    Si jamais vous voulez une demande n’hésitez pas.
+  </p>
+</section>
+
+<footer>
+  <p>Suivez-moi sur les réseaux</p>
+  <div class="socials">
+    <a href="https://www.instagram.com/design_foot_13" target="_blank">Instagram</a>
+    <a href="https://www.tiktok.com/@design_foot_13" target="_blank">TikTok</a>
+  </div>
+</footer>
+
+</body>
+</html>
